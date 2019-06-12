@@ -29,7 +29,7 @@ class Artist
   end 
   
   def self.create_by_name(name)
-    self.new(name).tap
+    self.new(name).tap(&)
   end 
   
   def print_name
