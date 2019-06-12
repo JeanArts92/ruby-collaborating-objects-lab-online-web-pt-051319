@@ -6,7 +6,7 @@ def initialize(path)
 end 
 
 def files
-Dir.entries(path).filter
+Dir.entries(path).filter { |filename| filename
 end 
 
 end 
