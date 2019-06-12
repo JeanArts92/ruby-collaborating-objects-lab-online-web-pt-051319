@@ -10,6 +10,6 @@ Dir.entries(path).filter { |filename| filename.end_with?('.mp3')}
 end 
 
 def import 
-  files.each{|file| Song.new
+  files.each{|file| file.split(" - ")
 
 end 
