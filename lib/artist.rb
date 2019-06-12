@@ -19,6 +19,9 @@ class Artist
   def add_song(song)
     self.songs << song
   end
+  
+  def find_or_create_by_name(name)
+    if artist.name == name 
     
   
 end 
