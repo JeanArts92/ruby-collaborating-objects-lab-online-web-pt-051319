@@ -32,7 +32,7 @@ class Artist
     self.new(name).tap(&:save)
   end 
   
-  def print_name
+  def print_songs
     songs.map {|song| puts song.name}
   end 
     
