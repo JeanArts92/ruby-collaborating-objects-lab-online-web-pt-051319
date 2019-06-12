@@ -1,7 +1,7 @@
 class MP3Importer
 
-def initialize
-  Dir["/path/to/search/*"]
+def initialize(path)
+  path = Dir["/path/to/search/*"]
 end
   
 end 
