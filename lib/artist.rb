@@ -33,6 +33,10 @@ class Artist
     artist = Artist.new(name)
     artist.save
   end 
+  
+  def print_name
+    
+  end 
     
   
 end 
