@@ -29,8 +29,7 @@ class Artist
   end 
   
   def self.create_by_name(name)
-    artist = self.new(name)
-    artist.save
+    self.new(name).tap
   end 
   
   def print_name
