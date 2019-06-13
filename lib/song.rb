@@ -11,4 +11,7 @@ song = self.new(name)
 song
 end
 
+def artist_name=(name)
+  self.artist
+
 end 
